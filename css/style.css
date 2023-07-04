@@ -1,0 +1,112 @@
+fieldset {
+    padding: 1rem;
+    border-style: solid;
+    border-color: #ddd;
+    border-radius: 0.15rem;
+    background-color: #F5F5F5;
+}
+
+
+legend {
+    background-color: white;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    border-style: solid;
+    border-color: #ddd;
+}
+
+
+label {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+input {
+    width: 100%;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-color: #ddd;
+    border-radius: 0.15rem;
+}
+
+
+#fullname {
+    margin-bottom: 1.5rem;
+}
+
+
+#email {
+    margin-bottom: 1.5rem;
+}
+
+
+#message {
+    margin-bottom: 1.5rem;
+}
+
+
+#button {
+    width: 100.5%;
+    padding: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #6495ED;
+    border-color: #6495ED;
+}
+
+
+textarea {
+    width: 100%;
+    padding-bottom: 15px;
+    border-style: solid;
+    border-color: #ddd;
+    border-radius: 0.15rem;
+
+}
+
+
+@media (min-width: 25rem) {
+    #button {
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 40rem) {
+    #button {
+        width: 6.5rem;
+    }
+
+    #fullname {
+        width: 18rem; 
+    }
+
+    #email {
+        width: 18rem;
+    }
+    .Fullname-Email {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+}
+
+
+@media (min-width: 50rem) {
+    #fullname {
+        width: 48rem;
+    }
+
+    #email {
+        width: 48rem;
+    }
+
+    fieldset {
+        width: 65rem;
+        align-items: center;
+        margin: auto;
+        padding: 1rem;
+    }
+}
